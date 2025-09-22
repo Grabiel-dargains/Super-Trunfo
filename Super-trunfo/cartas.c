@@ -34,6 +34,9 @@ scanf("%f", &pib);
 printf("Quantos pontos turísticos a cidade tem?");
 scanf("%i", &pontos_turisticos);
 
+float densidade = area / populacao;
+float percapta = pib / populacao;
+
 char carta1[] = "Estado: %c \n", estado;
                 "Código da carta: %c \n", codigo;
                 "Nome da cidade: %c", nome_da_cidade;
@@ -41,6 +44,9 @@ char carta1[] = "Estado: %c \n", estado;
                 "Área: %fkm² \n", area;
                 "Pib: %f \n", pib;
                 "Qtd Pontos Turísticos: %i \n", pontos_turisticos;
+                "Densidade populacional: %f hab/km² \n", densidade;
+                "Pib per capta: %f reais. \n", percapta;
+
 
 
 printf("Insira os dados para a segunda carta:\n");
@@ -66,6 +72,8 @@ scanf("%f", &pib);
 printf("Quantos pontos turísticos a cidade tem?");
 scanf("%i", &pontos_turisticos);
 
+
+
 char carta2[] = "Estado: %c \n", estado;
                 "Código da carta: %c \n", codigo;
                 "Nome da cidade: %c", nome_da_cidade;
@@ -73,6 +81,8 @@ char carta2[] = "Estado: %c \n", estado;
                 "Área: %fkm² \n", area;
                 "Pib: %f \n", pib;
                 "Qtd Pontos Turísticos: %i \n", pontos_turisticos;
+                "Densidade populacional: %f hab/km² \n", densidade;
+                "Pib per capta: %f reais. \n", percapta;
 
 char separador[] = "==========================\n";
 
